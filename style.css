@@ -131,3 +131,39 @@ html,body{
     z-index: 99;
     display: none;
 }
+
+#page3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    background-color: black;
+    padding: 10vw 10vw;
+    padding-left: 27vw;
+    color: white;
+}
+#page3 img{
+    width: 240px;
+}
+#textabout {
+    width: 30rem;
+    padding-top: 20px;
+}
+#textabout p{
+    line-height: 1.7;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+#textabout h5{
+    opacity: .6;
+    font-size: 14px;
+    padding-top: 50px;
+}
+#textabout a{
+    padding: 6px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
