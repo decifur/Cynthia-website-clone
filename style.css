@@ -59,7 +59,7 @@ html,body{
 
 #sideheadings{
     margin-top: 6.5vw;
-    padding-right: 30px;
+    padding-right: 3vw;
 }
 #sideheadings h5{
     text-align: right;
@@ -72,7 +72,7 @@ html,body{
     align-items: center;
     justify-content: space-between;
     font-weight: 700;
-    padding: 10px 30px;
+    padding: 1vw 3vw;
 }
 #page1footer a{
     color: white;
@@ -82,7 +82,7 @@ html,body{
     display: flex;
     gap: 5px;
 }
-#page1footer i{
+#page1footer .circle i{
     scale: 1.1;
     color: black;
 }
@@ -95,4 +95,39 @@ html,body{
     border-radius: 50%;
     background-color: white;
     opacity: .7;
+}
+
+#page2{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 7vw;
+    padding-right: 10vw;
+    padding-left: 3vw;
+}
+
+.elem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding: 2vw 0vw;
+    position: relative;
+}
+.elem h1{
+    font-size: 7vw;
+    opacity: .7;
+}
+.elem h4{
+    font-weight: 100;
+}
+.elemlast{
+    border-bottom: 1px solid gray;
+}
+.elem img{
+    height: 140%;
+    position: absolute;
+    z-index: 99;
+    display: none;
 }
