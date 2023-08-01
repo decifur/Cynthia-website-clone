@@ -167,3 +167,42 @@ html,body{
     color: white;
     text-decoration: none;
 }
+
+#subscribe{
+    color: white;
+    padding: 20px 30px;
+    padding-bottom: 7vw;
+    background-color: black;
+}
+#subscribe h5{
+    opacity: .6;
+}
+#subscribe h3{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+    background-color: black;
+}
+#footerleft{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+#footerright{
+    display: flex;
+    gap: 48px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#footer a{
+    color: white;
+    text-decoration: none;
+}
