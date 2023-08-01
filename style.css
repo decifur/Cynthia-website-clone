@@ -10,14 +10,26 @@ html,body{
     height: 100%;
 }
 
+#minicircle{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    position: absolute;
+    z-index: 9999;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
 #main{
     width: 100%;
+    background-color: black;
 }
 
 #page1{
     width: 100%;
     background-color: black;
     color: white;
+    position: relative;
 
 }
 #nav{
@@ -71,6 +83,7 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     font-weight: 700;
     padding: 1vw 3vw;
 }
