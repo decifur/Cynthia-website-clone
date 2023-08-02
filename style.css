@@ -41,6 +41,8 @@ html,body{
     color: white;
 }
 #nav a{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-size: 1.4vw;
     font-weight: 600;
@@ -49,6 +51,17 @@ html,body{
 #heading{
     margin-top: 6vw;
 }
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+}
+.bounding .boundingelem_down{
+    transform: translateY(100%);
+}
+.bounding .boundingelem_top{
+    transform: translateY(-120%);
+}
+
 #heading h1{
     opacity: .7;
     line-height: 0.85;
@@ -60,6 +73,9 @@ html,body{
     margin-left: 14vw;
 }
 .blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     width: fit-content;
     
 }
@@ -70,6 +86,9 @@ html,body{
 }
 
 #sideheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     margin-top: 6.5vw;
     padding-right: 3vw;
 }
