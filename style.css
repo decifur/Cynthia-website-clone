@@ -160,8 +160,12 @@ html,body{
 .elem img{
     height: 140%;
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: 99;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
 }
 
 #page3{
