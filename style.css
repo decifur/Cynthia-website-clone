@@ -18,7 +18,7 @@ html,body{
     z-index: 9999;
     border-radius: 50%;
     pointer-events: none;
-    transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
 }
 #main{
     width: 100%;
