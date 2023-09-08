@@ -15,5 +15,5 @@ The following technologies and tools were used to build this project:
 
 ## Features
 * Interactive Pointer: The cursor-responsive pointer enhances user engagement.
-* Loading Animation: A seamless and captivating website experience is ensured with a stylish loading animation.
+* Loading Animation: A stylish loading animation ensures a seamless and captivating website experience.
 * Smooth Card Transitions: Enjoy graceful card animations on hover for enhanced interactivity.
